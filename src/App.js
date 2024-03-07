@@ -10,6 +10,7 @@ function App() {
       <NavigationBar />
       <Routes>
         <Route path="/" element={<AboutMe />} />
+        <Route path="/about-me" element={<AboutMe />} />
         <Route path="/hobbies-pets" element={<HobbiesPets />} />
       </Routes>
     </Router>

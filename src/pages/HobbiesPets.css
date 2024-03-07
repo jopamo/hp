@@ -1,0 +1,54 @@
+.container {
+  max-width: 960px;
+  margin: auto;
+  padding: 20px;
+}
+
+.title {
+  font-size: 1.75rem;
+  color: #333;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.hobbyPetItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 16px;
+}
+
+.hobbyPetImage {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 15px;
+  border-radius: 4px;
+}
+
+.hobbyPetContent {
+  flex: 1;
+}
+
+.hobbyPetTitle {
+  font-size: 1.25rem;
+  color: #007bff;
+  margin: 0;
+}
+
+.hobbyPetDescription {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 8px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import HobbyPet from '../components/HobbyPet';
 
 export default {
@@ -17,5 +18,5 @@ export const SampleHobbyPet = Template.bind({});
 SampleHobbyPet.args = {
   title: 'Sample Hobby or Pet',
   description: 'This is a detailed description of the hobby or pet.',
-  imgSrc: 'https://fake.placeholder.com/150',
+  imgSrc: 'https://via.placeholder.com/150',
 };
